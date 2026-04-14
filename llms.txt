@@ -1,0 +1,88 @@
+# Acid Concepts - LLMs.txt
+# AI-readable site index for language model agents
+
+## Site Overview
+Acid Concepts is an interactive technology and venture studio specializing in immersive digital experiences, custom software development, AI systems, and launching new ventures. Based in Indianapolis with global reach.
+
+## Key Pages
+
+### Homepage
+- URL: /
+- Description: Main landing page showcasing services, featured projects, technology capabilities, and company overview. Start here for a complete introduction to Acid Concepts.
+
+### Services
+- URL: /services
+- Description: Comprehensive list of service offerings including interactive installations, software development, AI integration, and venture building.
+
+### Service Detail Pages
+- URL: /services/interactive-experiences
+- Description: Interactive installations, touchscreen experiences, gesture-based interfaces, and immersive environments.
+
+- URL: /services/software-development
+- Description: Custom software development, web applications, mobile apps, and enterprise solutions.
+
+- URL: /services/ai-integration
+- Description: AI-powered solutions, machine learning integration, conversational AI, and intelligent automation.
+
+- URL: /services/venture-building
+- Description: Venture studio services, startup incubation, product development from concept to launch.
+
+### Work / Portfolio
+- URL: /work
+- Description: Browse the complete portfolio of interactive installations, immersive experiences, AI systems, and AR/VR projects.
+
+### Projects Portfolio
+- URL: /project
+- Description: Individual project pages with detailed case studies across healthcare, entertainment, corporate, and nonprofit sectors.
+
+### Featured Projects
+- URL: /project/indiana-donor-network
+- Description: Interactive donor recognition wall for Indiana Donor Network featuring touch-based memorial experiences.
+
+- URL: /project/penn-medicine
+- Description: Healthcare technology project for Penn Medicine hospital system.
+
+- URL: /project/okc-thunder
+- Description: Interactive fan experience installation for Oklahoma City Thunder NBA team.
+
+- URL: /project/la-philharmonic
+- Description: Digital experience for the Los Angeles Philharmonic orchestra.
+
+- URL: /project/roswell-park
+- Description: Interactive installation for Roswell Park Comprehensive Cancer Center.
+
+- URL: /project/cliniq
+- Description: Healthcare technology platform for clinical operations.
+
+### Blog
+- URL: /blog
+- Description: Insights on interactive technology, innovation, digital experiences, and industry trends.
+
+### Contact
+- URL: /#contact
+- Description: Contact form and information for project inquiries, partnerships, and general questions.
+
+## In-House Products
+Acid Concepts builds and operates proprietary products:
+- 11Hype: Sports and entertainment fan engagement platform
+- Orylu: Digital experience platform
+- The Vault by Acid: Secure digital asset management
+
+## AI Assistant
+ARIA (Interactive Digital Strategist and Venture Architect) is available on the website to answer questions about services, projects, and capabilities.
+
+## Technical Capabilities
+- Interactive Installations (touchscreens, gesture recognition, motion tracking)
+- Custom Software Development (React, TypeScript, Node.js)
+- AI/ML Integration (conversational AI, computer vision, recommendation systems)
+- Real-time Data Visualization
+- Hardware-Software Integration
+- Cloud Architecture (AWS, Supabase)
+
+## Contact Information
+- Email: hello@acidconcepts.com
+- Location: Indianapolis, IN (with global project delivery)
+
+## Content Freshness
+This file is updated regularly. Projects and blog posts are added continuously.
+Last updated: 2025-01
