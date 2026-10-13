@@ -79,7 +79,7 @@ Disallow: /admin/
 Disallow: /api/
 
 # Sitemap location (dynamic edge function)
-Sitemap: https://rmfvjfawpkhowkwtnrhx.supabase.co/functions/v1/sitemap
+Sitemap: https://acidconcepts.io/sitemap.xml
 
 # LLMs.txt for AI agent navigation
 # See: https://acidconcepts.io/llms.txt
