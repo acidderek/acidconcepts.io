@@ -1,1 +1,0 @@
-import{a as o}from"./subDays-DoMHAZ66.js";import{t as r}from"./AdminLayout-Nut7PsTl.js";function d(a,t){const s=t*7;return o(a,s)}function f(a){const t=r(a);return t.setDate(1),t.setHours(0,0,0,0),t}export{d as a,f as s};
