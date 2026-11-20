@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- Google Ads gtag.js with Consent Mode v2 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17836297534"></script>
+    <!-- Google Ads + GA4 (G-9CW7FFPJTT) via one gtag loader -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17836297534&id=G-9CW7FFPJTT"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -31,6 +32,9 @@
       // Initialize Google Ads
       gtag('js', new Date());
       gtag('config', 'AW-17836297534');
+      // GA4 — Acid Concepts Website (stats foundation; respects the same
+      // Consent Mode v2 defaults above — behavioral modeling fills gaps)
+      gtag('config', 'G-9CW7FFPJTT');
     </script>
     <title>Acid Concepts | Interactive Experience Design & Development</title>
     <meta name="description" content="Acid Concepts designs and creates immersive digital interactive experiences. From interactive video walls to custom games, we transform spaces for corporate, healthcare, and entertainment." />
