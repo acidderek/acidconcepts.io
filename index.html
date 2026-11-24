@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <!-- Google Ads gtag.js with Consent Mode v2 -->
-    <!-- Google Ads + GA4 (G-9CW7FFPJTT) via one gtag loader -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17836297534&id=G-9CW7FFPJTT"></script>
+    <!-- Google Ads + GA4 (G-9CW7FFPJTT): one Google tag, put on the page only after the visitor
+         clicks "Accept" on the cookie banner (loadGoogleTag in src/utils/tracking.ts). Until then
+         nothing is requested from Google, so "Reject" means what it says; commands queued below
+         and through window.gtag wait for the tag. -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
@@ -28,13 +29,6 @@
       
       // Enable ads data redaction when consent denied
       gtag('set', 'ads_data_redaction', true);
-      
-      // Initialize Google Ads
-      gtag('js', new Date());
-      gtag('config', 'AW-17836297534');
-      // GA4 — Acid Concepts Website (stats foundation; respects the same
-      // Consent Mode v2 defaults above — behavioral modeling fills gaps)
-      gtag('config', 'G-9CW7FFPJTT');
     </script>
     <title>Acid Concepts | Interactive Experience Design & Development</title>
     <meta name="description" content="Acid Concepts designs and creates immersive digital interactive experiences. From interactive video walls to custom games, we transform spaces for corporate, healthcare, and entertainment." />
@@ -75,8 +69,8 @@
     
     <!-- Theme Color for browsers -->
     <meta name="theme-color" content="#000000" />
-    <script type="module" crossorigin src="/assets/index-BcAo7pRB.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-A2mh0_TO.css">
+    <script type="module" crossorigin src="/assets/index-vVhBHT88.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-VY8nOPzt.css">
   </head>
 
   <body>
