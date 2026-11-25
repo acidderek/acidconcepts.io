@@ -1,0 +1,1 @@
+import{a as o}from"./subDays-B8oSm2N4.js";import{t as r}from"./AdminLayout-Dudd1SGM.js";function d(a,t){const s=t*7;return o(a,s)}function f(a){const t=r(a);return t.setDate(1),t.setHours(0,0,0,0),t}export{d as a,f as s};
