@@ -1,0 +1,12 @@
+# Acid Concepts — robots.txt
+# Every public URL serves its full page content to crawlers.
+
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /rest/
+Disallow: /functions/
+Disallow: /contact-success
+Allow: /
+
+Sitemap: https://acidconcepts.io/sitemap.xml

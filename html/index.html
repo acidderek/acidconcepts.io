@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Google Ads + GA4 (G-9CW7FFPJTT): one Google tag, put on the page only after the visitor
+         clicks "Accept" on the cookie banner (loadGoogleTag in src/utils/tracking.ts). Until then
+         nothing is requested from Google, so "Reject" means what it says; commands queued below
+         and through window.gtag wait for the tag. -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      
+      // Consent Mode v2 - Default denied until user accepts
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'ad_user_data': 'denied',
+        'ad_personalization': 'denied',
+        'analytics_storage': 'denied',
+        'functionality_storage': 'granted',
+        'personalization_storage': 'denied',
+        'security_storage': 'granted',
+        'wait_for_update': 500
+      });
+      
+      // Enable URL passthrough for gclid preservation
+      gtag('set', 'url_passthrough', true);
+      
+      // Enable ads data redaction when consent denied
+      gtag('set', 'ads_data_redaction', true);
+    </script>
+    <title>Acid Concepts | Interactive Experience Design & Development</title>
+    <meta name="description" content="Acid Concepts designs and creates immersive digital interactive experiences. From interactive video walls to custom games, we transform spaces for corporate, healthcare, and entertainment." />
+    <meta name="author" content="Acid Concepts" />
+    <meta name="keywords" content="interactive experiences, video walls, donor walls, digital signage, immersive spaces, custom games, interactive technology, AR, VR, AI avatars" />
+    
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.png" />
+    <!-- canonical and og:url are set per page by the SEO component; crawlers receive them in server-rendered HTML -->
+    
+    <!-- Sitemap for crawlers -->
+    <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Acid Concepts | Interactive Experience Design & Development" />
+    <meta property="og:description" content="We design and create immersive digital interactive experiences that engage, inform, and inspire audiences." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://acidconcepts.io/og-default.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="640" />
+    <meta property="og:image:alt" content="Acid Concepts — immersive digital experiences" />
+    <meta property="og:site_name" content="Acid Concepts" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Acid Concepts | Interactive Experience Design" />
+    <meta name="twitter:description" content="We design and create immersive digital interactive experiences that engage, inform, and inspire audiences." />
+    <meta name="twitter:image" content="https://acidconcepts.io/og-default.jpg" />
+    
+    <!-- Voice Assistant Hints -->
+    <meta name="google-site-verification" content="" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Acid Concepts" />
+    
+    <!-- Theme Color for browsers -->
+    <meta name="theme-color" content="#000000" />
+    <script type="module" crossorigin src="/assets/index-NVfzIAqf.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-4cfV4xG-.css">
+  </head>
+
+  <body>
+    <!-- No noscript needed for gtag.js -->
+    <div id="root"></div>
+  </body>
+</html>
